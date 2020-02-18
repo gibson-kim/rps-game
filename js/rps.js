@@ -51,7 +51,7 @@ function playRPS(playerSelection) {
     const p1 = document.createElement('p');
     p1.textContent = 'You picked:';
     const img1 = document.createElement('img');
-    img1.src = `${playerSelection}.jpg`;
+    img1.src = `img/${playerSelection}.jpg`;
     innerBoxLeft.appendChild(p1);
     innerBoxLeft.appendChild(img1);
 
@@ -62,7 +62,7 @@ function playRPS(playerSelection) {
     p2.textContent = 'Computer picked:';
     const img2 = document.createElement('img');
     let computerSelection = computerPlay();
-    img2.src = `${computerSelection}-r.jpg`;
+    img2.src = `img/${computerSelection}-r.jpg`;
     innerBoxRight.appendChild(p2);
     innerBoxRight.appendChild(img2);
 
