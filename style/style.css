@@ -1,0 +1,13 @@
+.pick { 
+    cursor: pointer; 
+}
+
+p#main-header {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+
+div#rps-images {
+    text-align: center;
+}
